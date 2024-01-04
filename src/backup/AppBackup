@@ -1,0 +1,47 @@
+// import Navbar from "./components/Navbar"
+// import Posts from "./components/Posts"
+// import Stories from "./components/Stories"
+// import storyData from "./data/storyData"
+
+// function App() {
+//   const stories = storyData.map(item => {
+//     return (
+//       <Stories 
+//         key={item.id}
+//         profilePic={item.profilePic}
+//         username={item.username}
+//         isSelf={item.isSelf}
+//         isCloseFriend={item.isCloseFriend}
+//       />
+//     )
+//   })
+
+//   const posts = postData.map(item => {
+//     return (
+//       <Posts 
+//         key={item.id}
+//         postPfp={item.postPfp}
+//         username={item.username}
+//         location={item.location}
+//         postPic={item.postPic}
+//         caption={item.caption}
+//         likes={item.likes}
+//         comments={item.comments}
+//         time={item.time}
+//       />
+//     )
+//   })
+
+//   return (
+//     <>
+//       <Navbar />
+//       <section class="story-list">
+//         {stories}
+//       </section>
+//       <hr class="line"/>
+//       <Posts />
+//     </>
+//   )
+// }
+
+// export default App
